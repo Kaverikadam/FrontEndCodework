@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Demo </title>
+    <script src="jsDemo.js">
+    </script>
+</head>
+<body>
+   
+    <div id="cont">
+        <h2 id="h1">Questions</h2>
+        <p id="p1">Size of int?</p>
+        <p id="p2">Size of float?</p>
+        <p id="p3">Size of double?</p>
+
+        <input type="submit" value="Get Answers" onclick="getAns()">
+        <input type="submit" value="Dark Mode" onclick="darkMode()">
+
+    </div>
+
+
+
+
+   
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            padding: 10px;
+        }
+        form {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .error {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm">
+            <label>User Name: </label>
+            <input type="text" name="name"><br><br>
+
+            <label>User Email: </label>
+            <input type="email" name="email" id="email"><br><br>
+            <span class="error" id="emailError">Please enter a valid email address.</span><br><br>
+
+            <label>Password: </label>
+            <input type="password" name="password"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            const emailInput = document.getElementById('email');
+            const emailError = document.getElementById('emailError');
+            const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+            if (!emailPattern.test(emailInput.value)) {
+                emailError.style.display = 'block';
+                event.preventDefault();
+            } else {
+                emailError.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
