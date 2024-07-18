@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  
+}
+
+.header{
+    height: 300px;
+    background-color: rgb(4, 4, 69);
+    border: 1px solid black;
+}
+.header img{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 15px;
+    
+}
+.header h2{
+    color: wheat;
+    display: flex;
+    margin-top: 60px;
+    float: right;
+    padding-right: 48%;
+}
+.header p{
+    color: wheat;
+    display: flex;
+    float: right;
+    padding-right: 47%;
+    font-size: 13px;
+    padding-top: 2px;
+}

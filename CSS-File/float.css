@@ -1,0 +1,27 @@
+#container{
+    height: 700px;
+    width: 700px;
+    background-color: aqua;
+}
+.box{
+    height: 250px;
+    width: 305px;
+    border: 2px solid black;
+    margin: 20px;
+}
+#box1{
+   float: left;
+    background-color: blueviolet;
+}
+#box2{
+   float: right;
+    background-color: rgb(216, 77, 128);
+}
+#top{
+    height: 50px;
+    width: 700px;
+    background-color: brown;
+    margin: 0px;
+    z-index: 1;
+
+}

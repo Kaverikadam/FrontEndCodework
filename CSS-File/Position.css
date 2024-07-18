@@ -1,0 +1,42 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid orangered;
+}
+.box1{
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left:20px;
+    z-index: 2;
+}
+.box2{
+    background-color: rgb(210, 246, 6);
+    position: relative;
+    /* opacit 
+    
+    y: 0.5; */
+    z-index: 0.2;
+
+}
+.box3{
+    background-color: rgb(7, 179, 248);
+    position: fixed;
+   
+}
+.box4{
+    background-color: rgb(249, 15, 187);
+    position: absolute;
+    top: 10px;
+    left:45px;
+}
+.box5{
+    background-color: rgb(110, 9, 192);
+    position: sticky;
+    top: 10px;
+    left:45px;
+}
+img{
+    position: sticky;
+    top:200px;
+}

@@ -1,0 +1,16 @@
+sum=(a,b)=>{
+    sum=a+b;
+    return sum
+}
+sub=(a,b)=>{
+    sum=a-b;
+    return sub
+}
+mul=(a,b)=>{
+    sum=a*b;
+    return mul
+}
+
+console.log(sum(10,20));
+console.log(sub(10,20));
+console.log(mul(10,20));

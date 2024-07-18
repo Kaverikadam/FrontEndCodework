@@ -1,0 +1,42 @@
+#container{
+    margin: 0px;
+    border: 1px solid black;
+    padding: 0px;
+    background-color: aquamarine;
+   
+}
+#info{
+    justify-content: center;
+}
+#image{
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+#information{
+    left:500px;
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    display: flex;
+    justify-content: center;
+}
+#obj{
+    display: flex;
+    justify-content: center;
+}
+#activity{
+   
+    float: left;
+    height: 20%;
+    width: 70%;
+}

@@ -1,0 +1,33 @@
+div{
+    background-color: aqua;
+    border: 1px solid red;
+    border-radius: 20%;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    transition-duration: 3s;
+}
+.b1:hover{
+    transform: rotate(65deg);
+}
+.b2:hover{
+    transform: matrix3d();
+}
+.b3:hover{
+    transform: translate(60deg);
+}
+.b4:hover{
+    transform: rotatez(120deg);
+}
+.b5:hover{
+    transform: scale(2);
+}
+.b6:hover{
+    transform: skew(30deg,20deg);
+}
+.b7{
+    transform: ;
+}
+
+

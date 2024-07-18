@@ -1,0 +1,38 @@
+.btn{
+    background-color: yellow;
+    border: 2px solid lightslategray;
+    border-radius: 25%;
+    height: 20px;
+    width: 80px;
+    transition-property: all;
+    transition-timing-function: steps(5,end);
+    transition-duration: 1s;
+
+
+}   
+.btn:hover{
+    background-color: rgb(121, 207, 121);
+    height: 150px;
+}
+.btn:active{
+    background-color: teal;
+    height: 30px;
+    width: 100px;
+    color: aliceblue;
+}
+.a1{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+}
+.a1:hover{
+    background-color: yellow;
+    height: 150px;
+}
+.a1:active{
+    background-color: blue;
+    height: 50px;
+}

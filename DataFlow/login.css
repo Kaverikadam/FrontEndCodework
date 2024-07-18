@@ -1,0 +1,12 @@
+#cont{
+    background-color: rgb(85, 127, 43);
+    color: rgb(217, 217, 228);
+    padding: 5px;
+    margin: 10px;
+}
+input{
+    background-color: aqua;
+    color: crimson;
+    font-weight: bold;
+    padding: 3px;
+}

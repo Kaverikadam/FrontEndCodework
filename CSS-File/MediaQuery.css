@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    background-color: rgb(247, 127, 127);
+    font-size: 20px;
+    border: 3px solid red;
+    width: 45%;
+    
+}
+@media screen and (max-width:500px) {
+    body{
+        background-color: blueviolet;
+    }
+    .box{
+        background-color:crimson;
+        font-size: 10px;
+        border: 3px solid red;
+        width: 45%;
+        color: darkblue;
+        
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Delete User</title>
+</head>
+<body>
+    <h2>Delete User</h2>
+    
+    <form id="deleteForm" action="/api/users/{userId}" method="post">
+        <input type="hidden" name="_method" value="DELETE">
+        <input type="submit" value="Delete User">
+    </form>
+    
+    <script>
+        document.getElementById("deleteForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            var userId = 123; // Replace with the actual user ID to delete
+            var url = "/api/users/" + userId;
+            
+            fetch(url, {
+                method: 'DELETE'
+            }).then(function(response) {
+                if (response.ok) {
+                    alert("User deleted successfully");
+                    // Optionally redirect to another page after deletion
+                    // window.location.href = "/redirect-url";
+                } else {
+                    alert("Failed to delete user");
+                }
+            }).catch(function(error) {
+                console.error('Error:', error);
+                alert("An error occurred while deleting user");
+            });
+        });
+    </script>
+</body>
+</html>

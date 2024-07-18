@@ -1,0 +1,58 @@
+.pagebody{
+    background-color: azure;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid rgb(11, 0, 0);
+}
+.header{
+    margin: 1px;
+    background-color: rgb(247, 151, 54);
+    height: 150px;
+}
+.wel{
+    color: rgb(7, 7, 117);
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+ .image{
+    justify-content: center;
+    float: right;
+    padding-right: 49%;
+    height: 40%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav a{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    background-color: darkgray;
+    border-radius: 30px;
+}
+.nav a:hover{
+    color: rgb(47, 3, 88);
+    background-color: coral;
+    border-radius: 30px;
+}
+
+.content{
+    margin: 1px;
+    
+}
+.left{
+    background-color:rgb(5, 32, 55);
+    height: 500px;
+    float: left;
+    width: 65%;
+}
+.right{
+    background-color: aqua;
+    height: 300px;
+    width: 35%;
+    float: right;
+}

@@ -1,0 +1,41 @@
+/* body{
+    background-image: url('tom.png');
+    background-size:contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-clip:border-box;
+
+} */
+
+p{
+    background-color: palevioletred;
+    height: 100px;
+    width: 800px;
+}
+#p1{
+    font-family: "Jersey 20", sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#p2{
+   font-size: 20px;
+   font-family: monospace;
+   font-weight: bold;
+   font-style: oblique;
+   font-variant-ligatures:contextual;
+}
+#p3{
+   font-size: 30px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   font-style: italic;
+   font-variant: small-caps;
+}
+
+
+
+
+
